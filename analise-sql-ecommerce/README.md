@@ -2,21 +2,20 @@
 
 ## 📌 Sobre o projeto
 
-Este projeto tem como objetivo analisar dados de um e-commerce utilizando SQL para identificar padrões de vendas e gerar insights estratégicos.
+Este projeto simula um cenário real de análise de dados em um e-commerce, utilizando SQL para explorar dados de vendas e gerar insights estratégicos.
 
-A análise simula um cenário real de negócio, onde os dados são explorados para apoiar a tomada de decisão baseada em dados.
+Os dados foram criados para fins educacionais e representam informações de pedidos, clientes, categorias e localização.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Problema de negócio
 
-Responder perguntas importantes de negócio, como:
+Uma empresa de e-commerce deseja entender:
 
-* Qual o faturamento total?
-* Quais categorias geram mais receita?
-* Existe concentração de vendas por região?
-* Quem são os clientes mais valiosos?
-* Como os dados podem orientar decisões estratégicas?
+* Quais produtos geram mais receita
+* Quais regiões concentram vendas
+* Quem são os clientes mais valiosos
+* Onde existem oportunidades de crescimento
 
 ---
 
@@ -29,8 +28,6 @@ Responder perguntas importantes de negócio, como:
 
 ## 🧠 Técnicas aplicadas
 
-Neste projeto foram utilizadas técnicas fundamentais e intermediárias de SQL:
-
 * SELECT, WHERE
 * GROUP BY e ORDER BY
 * Funções de agregação (SUM, COUNT, AVG)
@@ -42,83 +39,47 @@ Neste projeto foram utilizadas técnicas fundamentais e intermediárias de SQL:
 
 ## 📊 Análises realizadas
 
-### 💰 Faturamento total
-
-Cálculo do valor total de vendas realizadas.
-
-### 📦 Total de pedidos
-
-Identificação do volume total de pedidos.
-
-### 🎯 Ticket médio
-
-Valor médio por pedido.
-
-### 📊 Vendas por categoria
-
-Identificação das categorias com maior faturamento.
-
-### 🌎 Vendas por estado
-
-Análise da distribuição geográfica das vendas.
-
-### 👑 Top clientes
-
-Identificação dos clientes com maior volume de compras.
-
-### 📈 Clientes acima da média
-
-Análise de clientes com gasto superior ao ticket médio.
-
-### 📊 Participação por categoria (%)
-
-Cálculo da representatividade de cada categoria na receita total.
-
-### 🏆 Ranking de clientes
-
-Classificação dos clientes com base no total gasto.
-
-### 🔗 Análise com JOIN
-
-Integração de dados entre tabelas para enriquecer a análise.
+* Faturamento total
+* Ticket médio
+* Vendas por categoria
+* Vendas por estado
+* Top clientes
+* Clientes acima da média
+* Participação percentual por categoria
+* Ranking de clientes
+* Análise integrada com JOIN
 
 ---
 
 ## 📊 Principais insights
 
-### 📌 1. Faturamento total
+### 💰 Faturamento total
 
-O faturamento total foi de **R$ 6.900**, representando o volume geral de vendas analisado.
-
----
-
-### 📌 2. Concentração por categoria
-
-A categoria de **Eletrônicos** lidera o faturamento com R$ 4.450.
-
-Essa categoria representa aproximadamente **64% da receita total**, indicando forte dependência desse segmento.
+O faturamento total foi de **R$ 6.900**.
 
 ---
 
-### 📌 3. Concentração geográfica
+### 📦 Concentração por categoria
 
-O estado de **São Paulo (SP)** concentra cerca de **50% do faturamento total**, evidenciando forte concentração regional.
-
----
-
-### 📌 4. Clientes de alto valor
-
-Os clientes com maior volume de compras (Lucas, João e Bruna) representam uma parcela significativa da receita.
-
-Isso indica concentração de faturamento em poucos clientes.
+A categoria de **Eletrônicos** representa cerca de **64% da receita total**, indicando forte dependência desse segmento.
 
 ---
 
-### 📌 5. Padrões de negócio
+### 🌎 Concentração geográfica
 
-A análise revela:
+O estado de **São Paulo (SP)** concentra aproximadamente **50% das vendas**.
 
-* forte concentração de receita em uma categoria
+---
+
+### 👑 Clientes de alto valor
+
+Os clientes com maior gasto (Lucas, João e Bruna) representam uma parcela relevante da receita.
+
+---
+
+### 📈 Padrões identificados
+
+* concentração de receita em poucos produtos
 * dependência de uma região específica
 * presença de clientes com alto valor
 
@@ -126,30 +87,42 @@ A análise revela:
 
 ## 💡 Aplicações de negócio
 
-Com base nos insights, é possível:
+* Foco na retenção de clientes de alto valor
+* Expansão para outras regiões
+* Diversificação de categorias
+* Estratégias de marketing direcionadas
 
-* investir na categoria mais lucrativa
-* diversificar o portfólio de produtos
-* expandir atuação em outras regiões
-* criar estratégias de fidelização para clientes de alto valor
+---
+
+## ▶️ Como executar o projeto
+
+1. Criar o banco de dados:
+
+```sql
+CREATE DATABASE ecommerce;
+USE ecommerce;
+```
+
+2. Executar o script SQL:
+
+* Criar tabelas
+* Inserir dados
+* Rodar as queries
 
 ---
 
 ## 📁 Estrutura do projeto
 
 analise-sql-ecommerce/
-│
-├── queries.sql
-└── README.md
-```
+
+* queries.sql
+* README.md
 
 ---
 
 ## 📈 Conclusão
 
-A análise com SQL permitiu identificar padrões relevantes no comportamento das vendas, como concentração por categoria, região e clientes.
-
-Esses insights podem ser utilizados para orientar decisões estratégicas e melhorar o desempenho do negócio.
+A análise permitiu identificar padrões importantes no comportamento de vendas, fornecendo insights que podem apoiar decisões estratégicas e otimizar resultados do negócio.
 
 ---
 
@@ -157,11 +130,9 @@ Esses insights podem ser utilizados para orientar decisões estratégicas e melh
 
 Estou em transição para a área de dados, desenvolvendo projetos práticos com foco em:
 
-* Análise de dados
 * SQL
 * Python
-* Visualização de dados
+* Análise de dados
+* Visualização
 
 Este projeto faz parte do meu portfólio para atuação como Analista de Dados.
-
-🔗 Confira outros projetos no meu GitHub.
