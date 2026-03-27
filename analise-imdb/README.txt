@@ -4,7 +4,7 @@
 
 Este projeto foi desenvolvido como atividade final do curso de Analista de Dados. O objetivo foi aplicar na prática as etapas de um processo completo de análise de dados, incluindo seleção da base de dados, análise exploratória, tratamento dos dados e construção de visualizações.
 
-Foi utilizado o dataset público "IMDB Top 1000 Movies", que contém informações sobre os mil filmes mais bem avaliados no site IMDb.
+Foi utilizado o dataset público **"IMDB Top 1000 Movies"**, que contém informações sobre os mil filmes mais bem avaliados no site IMDb.
 
 ---
 
@@ -21,7 +21,7 @@ O conjunto de dados utilizado contém informações como:
 - Metascore  
 - Receita bruta (Gross)
 
-A base possui mais de 1000 registros e diversas colunas com informações relevantes para análise.
+A base possui mais de **1000 registros** e diversas colunas com informações relevantes para análise.
 
 ---
 
@@ -29,7 +29,7 @@ A base possui mais de 1000 registros e diversas colunas com informações releva
 
 ### Seleção dos Dados
 
-Foi selecionado o dataset IMDB Top 1000, disponível publicamente em plataformas de dados abertos.
+Foi selecionado o dataset **IMDB Top 1000**, disponível publicamente em plataformas de dados abertos.
 
 ### Análise Exploratória
 
@@ -64,7 +64,7 @@ Foi desenvolvido um dashboard contendo diferentes gráficos que permitem identif
 - Pandas  
 - Jupyter Notebook  
 - Looker Studio  
-- Google Drive
+- Google Drive  
 
 ---
 
